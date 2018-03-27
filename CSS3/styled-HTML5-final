@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Final Project</title>
+	<link rel="stylesheet" href="css/together-4.css">
+</head>
+<body>
+	<header>
+		<h1>Meghan Gutshall</h1>
+	<nav>
+		<a href="">One</a>
+		<a href="">Two</a>
+		<a href="">Three</a>
+		<a href="">Four</a>
+	</nav>
+	</header>
+	<section class="half">
+				<h2>Favorite Foods</h2>
+		<ul>
+			<li>ice cream</li>
+			<li>sushi</li>
+			<li>pizza</li>
+			<li>fruit</li>
+		</ul>
+	</section>
+	<section class="half">
+		<h2>Achievements</h2>
+		Progress in this course (100%)
+		<progress value="1"></progress>
+		<br>
+		Progress in the Specialization capstone (20%)
+		<progress value="20" max="100"></progress>
+		<br>
+		Progress in life goals (25%)
+		<progress value="25" max="100"></progress>
+	</section>
+	<section class="whole">
+		<h2>More About Me</h2>
+		<details open>
+			<summary>My Childhood</summary>
+			<p>I grew up in the Philadelphia area and had two cats.</p>
+		</details>
+	</section>
+	<footer>
+		<p>
+		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E picture">This page was created by Meghan Gutshall &amp; Colleen van Lent. To learn more about web design, visit <a href="">Intro to Web Design</a>.
+	</p>
+	</footer>
+</body>
+</html>
